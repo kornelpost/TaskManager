@@ -4,11 +4,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TaskManagerApp.Models;
 
 namespace TaskManagerApp.Controllers
 {
     public class TaskController : Controller
     {
+        // Sample data
+        private static IList<TaskModel> tasks = new List<TaskModel>()
+        {
+            new TaskModel(){TaskId = 1, Name = "Sample task",
+                Description = "sample description text", Done = false}
+        };
+
+
         // GET: TaskController
         public ActionResult Index()
         {
