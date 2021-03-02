@@ -31,9 +31,10 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.ActionLink("Edit task", "Edit", new { id=item.TaskId }) |
-                @Html.ActionLink("Task details", "Details", new { id=item.TaskId }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Done task", "Done", new { id = item.TaskId }) |
+                @Html.ActionLink("Edit task", "Edit", new { id = item.TaskId }) |
+                @Html.ActionLink("Task details", "Details", new { id = item.TaskId }) |
+                @Html.ActionLink("Delete task", "Delete", new { id = item.TaskId })
             </td>
         </tr>
 }

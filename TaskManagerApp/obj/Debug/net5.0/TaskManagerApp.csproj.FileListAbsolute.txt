@@ -118,3 +118,4 @@ C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Vie
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Create.cshtml.g.cs
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Details.cshtml.g.cs
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Edit.cshtml.g.cs
+C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Delete.cshtml.g.cs

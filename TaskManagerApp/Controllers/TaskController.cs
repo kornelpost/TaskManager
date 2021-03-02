@@ -21,7 +21,7 @@ namespace TaskManagerApp.Controllers
         // GET: TaskController
         public ActionResult Index()
         {
-            return View(tasks);
+            return View(tasks.Where(x => !x.Done));
         }
 
         // GET: TaskController/Details/5
@@ -66,22 +66,23 @@ namespace TaskManagerApp.Controllers
         // GET: TaskController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(tasks.FirstOrDefault(x => x.TaskId == id));
         }
 
         // POST: TaskController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, TaskModel taskModel)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            TaskModel task = tasks.FirstOrDefault(x => x.TaskId == id);
+            tasks.Remove(task);
+            return RedirectToAction(nameof(Index));
+        }
+        public ActionResult Done(int id)
+        {
+            TaskModel task = tasks.FirstOrDefault(x => x.TaskId == id);
+            task.Done = true;
+            return RedirectToAction(nameof(Index));
         }
     }
 }
