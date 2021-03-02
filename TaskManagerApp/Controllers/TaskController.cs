@@ -21,7 +21,7 @@ namespace TaskManagerApp.Controllers
         // GET: TaskController
         public ActionResult Index()
         {
-            return View();
+            return View(tasks);
         }
 
         // GET: TaskController/Details/5
@@ -33,22 +33,16 @@ namespace TaskManagerApp.Controllers
         // GET: TaskController/Create
         public ActionResult Create()
         {
-            return View();
+            return View(new TaskModel());
         }
 
         // POST: TaskController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(TaskModel taskModel)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            tasks.Add(taskModel);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: TaskController/Edit/5

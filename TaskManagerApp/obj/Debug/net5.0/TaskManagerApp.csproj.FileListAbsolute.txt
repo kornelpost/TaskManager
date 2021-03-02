@@ -114,3 +114,4 @@ C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\zh-Hans\M
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Index.cshtml.g.cs
