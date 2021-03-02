@@ -27,7 +27,7 @@ namespace TaskManagerApp.Controllers
         // GET: TaskController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(tasks.FirstOrDefault(x => x.TaskId == id));
         }
 
         // GET: TaskController/Create

@@ -115,3 +115,5 @@ C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\zh-Hant\M
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Index.cshtml.g.cs
+C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Create.cshtml.g.cs
+C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Details.cshtml.g.cs
