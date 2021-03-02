@@ -117,3 +117,4 @@ C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\bin\Debug\net5.0\runtimes\
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Index.cshtml.g.cs
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Create.cshtml.g.cs
 C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Details.cshtml.g.cs
+C:\VisualStudioProjects\TaskManagerApp\TaskManagerApp\obj\Debug\net5.0\Razor\Views\Task\Edit.cshtml.g.cs
