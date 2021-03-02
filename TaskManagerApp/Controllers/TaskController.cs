@@ -41,6 +41,7 @@ namespace TaskManagerApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(TaskModel taskModel)
         {
+            taskModel.TaskId = tasks.Count + 1;
             tasks.Add(taskModel);
             return RedirectToAction(nameof(Index));
         }
