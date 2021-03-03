@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Task details</h1>
+<h1 class="display-4">Task details</h1>
 
 <div>
     <h4>TaskModel</h4>
@@ -25,6 +25,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit task", "Edit", new { id = Model.TaskId }) |
-    <a asp-action="Index">Back to List</a>
+    @Html.ActionLink("Edit task", "Edit", new { id = Model.TaskId }, new { @class = "btn btn-warning" }) 
+    <a class="btn btn-success" asp-action="Index">Back to List</a>
 </div>

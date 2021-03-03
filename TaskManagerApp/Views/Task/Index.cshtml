@@ -25,7 +25,7 @@
                 <td style="width:65%">
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
-                <td style="width:65%">
+                <td style="width:35%">
                     @Html.ActionLink("Done task", "Done", new { id = item.TaskId }, new { @class = "btn btn-success" })
                     @Html.ActionLink("Edit task", "Edit", new { id = item.TaskId }, new { @class = "btn btn-warning" })
                     @Html.ActionLink("Task details", "Details", new { id = item.TaskId }, new { @class = "btn btn-info" })
